@@ -127,11 +127,11 @@ const ArtPage = () => {
       //     headers: { 'Content-Type': 'application/json' },
       //   }
       // );
-
-      // if (response.status === 201) {
+      // if (art?.questionIdx === 6 && response.satus === 201) {
+      //   navigate('egg');
+      // } else {
       //   navigate('/');
       // }
-      navigate('/');
     } catch (error) {
       console.error('Error uploading image:', error);
     }
